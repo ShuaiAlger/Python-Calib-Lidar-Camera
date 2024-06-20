@@ -1,6 +1,8 @@
 # Python-Calib-Lidar-Camera
-Python-Only Calibration Tools. Perform calibration as simply as possible.
-
+## Python-Only Calibration Tools.
+Perform calibration as simply as possible.
+### Input : pcd/ply/xxx, jpg/png/xxx, trajectory poses
+### Output : Extrinsic
 
 ![framework_demo](assets/framework.jpg)
 
@@ -18,7 +20,7 @@ pip install pypcd4
 pip install kornia
 ```
 #### Auto Calibration With Python-Only Dependencies
-#### Hand-Eye Calibration With Python-Only Dependencies
+#### Trajectory Calibration With Python-Only Dependencies
 ```
 pip install kiss-icp[all]
 ```
